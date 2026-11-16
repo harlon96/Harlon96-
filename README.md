@@ -1,5 +1,21 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
+import { generateSnakeAnimation } from "generate-snake-animation";
+
+const outputs = [
+  {
+    format: "svg",
+    drawOptions: {
+      // ..
+    },
+  },
+];
+
+const results = await generateSnakeAnimation(
+  {
+    platform: "github", // supports github, gitlab and forgejo (codeberg)
+    username: "platane",
+    githubToken: process.env.GITHUB_TOKEN,
+  },
+  outputs,
+);
+
+fs.writeFileSync("snake.svg", results[0]);
