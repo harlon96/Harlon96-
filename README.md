@@ -1,3 +1,1 @@
-
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/02feccd7-1ac1-456f-95b4-0de00a2b5ad8" />
-
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=harlon96&custom_title=My%20GitHub%20Daily%20Statistics&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=catppuccin_latte)](https://github-stats-extended.vercel.app/api?username=harlon96&custom_title=My%20GitHub%20Daily%20Statistics&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=catppuccin_latte)
